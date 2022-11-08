@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right, #1D1CE5, #C47AFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  width: 450px;
+  background: rgba(255, 255, 255, .5);
+  padding: 4rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.login-card-logo img {
+  width: 50px;
+}
+
+.login-card-logo,
+.login-card-header,
+.login-card-footer {
+  text-align: center;
+}
+
+.login-card a {
+  text-decoration: none;
+  color: #1D1CE5;
+}
+
+.login-card a:hover {
+  text-decoration: underline;
+}
+
+.login-card-header {
+  margin-bottom: 2rem;
+}
